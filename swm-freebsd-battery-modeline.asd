@@ -1,4 +1,4 @@
-;;;; swm-freebsd-battery.asd
+;;;; swm-freebsd-battery-modeline.asd
 
 (asdf:defsystem #:swm-freebsd-battery-modeline
   :description "StumpWM mode-line battery status for FreeBSD"

@@ -1,6 +1,6 @@
 ;; swm-freebsd-battery-modeline.lisp
 ;;
-;; Put %b in your modeline format string to get the percentage of battery power
+;; Put %b in your mode-line format string to get the percentage of battery power
 ;; remaing.  If the battery is discharging the value returned will be red,
 ;; otherwise it will be green.
 ;;
