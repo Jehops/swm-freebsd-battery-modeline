@@ -22,3 +22,8 @@ module.
 
 A: Yes, it could.  I tried doing that with and without threads.  I found StumpWM
 became less responsive in both cases.  Don't you prefer a snappy StumpWM?
+
+Q: Will this only run on FreeBSD.
+
+A: By default, yes, but it should be quite simple to modify ml_bat.sh to get it
+working on your OS.
