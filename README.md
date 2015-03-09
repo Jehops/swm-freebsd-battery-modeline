@@ -27,13 +27,13 @@ Finally create a mode-line format string with %b in it, e.g.,
     (setf *screen-mode-line-format* "^[^8*Battery: ^] %b")
 ```
 
-Q: So, why use a separate script.  Couldn't all the code be contained within the
-module.
+Q: So, why use a separate script?  Couldn't all the code be contained within the
+module?
 
 A: Yes, it could.  I tried doing that with and without threads.  I found StumpWM
 became less responsive in both cases.  Don't you prefer a snappy StumpWM?
 
-Q: Will this only run on FreeBSD.
+Q: Will this only run on FreeBSD?
 
 A: By default, yes, but it should be quite simple to modify ml_bat.sh to get it
 working on your OS.
