@@ -14,7 +14,7 @@ Q: What do I need to put in my ~/.stumpwmrc to get this working?
 A: First, make sure the source is in your load-path.  To add it, use something
 like (add-to-load-path "/usr/home/jrm/scm/swm-freebsd-battery-modeline").  Next,
 load the module with (load-module "swm-freebsd-battery-modeline").  Finally
-create a mode-line format string with %b in it: (setf *screen-mode-line-format*
+create a mode-line format string with %b in it, e.g., (setf *screen-mode-line-format*
 "^[^8*Battery: ^] %b").
 
 Q: So, why use a separate script.  Couldn't all the code be contained within the
