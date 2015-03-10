@@ -9,7 +9,7 @@ Make sure this script is executable by the user running StumpWM and within the
 user's $PATH.  Have a look at the script to customize certain settings, such as
 the interval between updates.  At the top of the script there is a variable,
 bat_cmd, that holds a sysctl command.  You may need to tweek this command, so
-that it shows your system's battery state and life.
+that it returns your system's battery state and life.
 
 FAQ
 
