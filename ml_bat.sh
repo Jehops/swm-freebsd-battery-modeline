@@ -12,8 +12,8 @@ interval=15 # customize this
 
 sleep 1
 
-#stump_pid="$(pgrep -a -n stumpwm)"
-stump_pid="$(pgrep -anf -U "$(id -u)" "sbcl .*(stumpwm:stumpwm)")"
+stump_pid="$(pgrep -a -n stumpwm)"
+#stump_pid="$(pgrep -anf -U "$(id -u)" "sbcl .*(stumpwm:stumpwm)")"
 
 # while stumpwm is still running
 while kill -0 "$stump_pid" > /dev/null 2>&1; do
